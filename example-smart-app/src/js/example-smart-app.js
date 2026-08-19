@@ -28,6 +28,8 @@
         $.when(pt, obv).done(function(patient, obv) {
           var byCodes = smart.byCodes(obv, 'code');
           var gender = patient.gender;
+          console.log(patient);
+          console.log(obv);
 
           var fname = '';
           var lname = '';
