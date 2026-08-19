@@ -18,7 +18,7 @@
                         $or: ['http://loinc.org|8302-2', //height
                               'http://loinc.org|2085-9', //hdl col
                               'http://loinc.org|2089-1', //ldl col
-                              'http://loinc.org|85354-9'] //blood pressure sys and dia
+                              'http://loinc.org|85354-9' //blood pressure sys and dia
                               'http://loinc.org|8310-5'] //Temperature
                       }
                     }
